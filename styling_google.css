@@ -1,0 +1,154 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.header_img_content{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 30px;
+    margin-top: 14px;
+    line-height: px;
+}
+.header_img_content a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #1f1f1f;
+    padding-right: 10px;
+}
+.header_img_content img{
+color: #1f1f1f;
+padding-top: 5px;
+cursor: pointer;
+}
+.header_img_content a:hover{
+    text-decoration: underline;
+}
+.header_img_content button{
+    background: rgb(88, 88, 238);
+    color: white;
+    cursor: pointer;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 50px;
+}
+.logo_imge_input_button_contaner{
+    flex: 1;
+}
+.img_1{
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    /* margin-top: 107px; */
+}
+.serch_input_mic{
+    width: 580px;
+    margin: 0px auto;
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .serch_input_mic {
+        width: 80%;
+        margin: 20px;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .serch_input_mic_input {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .s_but {
+        width: 80%;
+      margin-top: 10px;
+    }
+    /* .img_1{
+        width: 50%;
+    } */
+
+}
+.serch_input_mic .serch_input_mic_input{
+    display: block;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    padding: 13px;
+    padding-left: 45px;
+    border-radius: 25px;
+    width: 100%;
+    outline: none;
+}
+.serch_input_mic .serch_icon{
+    width: 20px;
+    opacity: .4;
+    position: absolute;
+    top: 12px;
+    left: 14px;
+}
+.serch_input_mic .mic_icon{
+    width: 30px;
+    position: absolute;
+    top: 8px;
+    right: 0px;
+}
+.s_but{
+    border: none;
+    padding: 9px 15px;
+    color: #666;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 30px;
+    outline: none;
+    cursor: pointer;
+    transition:border-color 100ms;
+}
+.s_but:hover{
+    border: 1px solid #aaa;
+}
+.color{
+    color: blue;
+}
+.serch_input_mic p{
+    color: gray;
+    padding: 14px 0px;
+}
+footer{
+    background: #f2f2f2;
+}
+footer h4{
+    color: rgba(0,0,0,0.54);
+    font-size: 15px;
+    line-height: 40px;
+    padding-left: 29px;
+    border: 1px solid #eee;
+    margin-top: 143px;
+}
+footer a{
+    color: #5f6368;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 12px;
+    font-size: 14px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.links{
+    display: flex;
+    border-top: 1px solid #ddd;
+    line-height: 30px;
+}
+.link-2{
+    padding-left: 19px;
+    flex: 1;
+    text-align: right;
+}
+.link-1{
+    padding-right: 19px;
+    flex: 1;
+}
